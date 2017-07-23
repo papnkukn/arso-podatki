@@ -10,7 +10,7 @@ npm install arso-podatki
 ```
 
 Uporaba
-```
+```javascript
 var Arso = require('arso-podatki').Arso;
 var arso = new Arso();
 arso.getZrakUrni(function(error, json, xml) {
