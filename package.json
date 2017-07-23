@@ -1,0 +1,23 @@
+{
+  "name": "arso-podatki",
+  "version": "1.0.0",
+  "description": "ARSO podatki o vodi in zraku",
+  "author": "Papn Kukn",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cron": "^1.2.1",
+    "request": "^2.81.0",
+    "xml2js": "^0.4.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papnkukn/arso-podatki"
+  },
+  "bugs": {
+    "url": "https://github.com/papnkukn/arso-podatki/issues"
+  }
+}
