@@ -11,6 +11,7 @@ npm install arso-podatki
 
 Uporaba
 ```javascript
+//Voda in zrak
 var Arso = require('arso-podatki').Arso;
 var arso = new Arso();
 arso.getZrakUrni(function(error, json, xml) {
@@ -29,6 +30,13 @@ arso.getVodaZadnji(function(error, json, xml) {
   if (postaja.vodostaj > 160) {
     obvesti("Nevarnost poplav");
   }
+});
+
+//Vremenski podatki
+var Meteo = require('arso-podatki').Meteo;
+var meteo = new Meteo();
+meteo.getSloveniaLatest(function(error, json, xml) {
+  ...
 });
 ```
 
@@ -158,6 +166,117 @@ Rezultat
       "co": null,
       "o3": 123,
       "no2": 8
+    },
+    ...
+  ]
+}
+```
+
+## Vreme
+
+[Meteo: podatki o vremenu](http://www.meteo.si/met/sl/service/)
+
+Pridobivanje podatkov
+```javascript
+var url = "http://www.meteo.si/uploads/probase/www/fproduct/text/sl/fcast_SLOVENIA_latest.xml";
+arso.getWeatherData(url, function(error, data, xml) {
+  if (error) return console.error(error);
+  fs.writeFileSync("meteo_si_latest.xml", xml);
+  fs.writeFileSync("meteo_si_latest.json", JSON.stringify(data, " ", 2));
+  console.log("Opravljeno: 5 dnevna napoved vremena za Slovenijo");
+});
+```
+
+Rezultat
+```javascript
+{
+  "url": "http://www.meteo.si/uploads/probase/www/fproduct/text/sl/fcast_SLOVENIA_latest.xml",
+  "language": "sl",
+  "credit": "meteo.si - ARSO",
+  "generator": "AutoPro/ProCreator",
+  "request_date": "2017-07-27T19:15:23.253Z",
+  "data": [
+    {
+      "title": "METEO_FCAST",
+      "domain_meteosiId": "SLOVENIA_",
+      "domain_id": "64764800",
+      "domain_countryIsoCode2": "SI",
+      "domain_lat": 46.05,
+      "domain_lon": 14.68,
+      "domain_altitude": 400,
+      "domain_title": "SLOVENIA",
+      "domain_longTitle": "Slovenija",
+      "domain_shortTitle": "Slovenija",
+      "sunset": "2017-07-27T18:37:00.000Z",
+      "tsValid_issued_day": "Cetrtek CEST",
+      "tsValid_issued_RFC822": "27 Jul 2017 03:00:00 +0000",
+      "tsUpdated_day": "Cetrtek CEST",
+      "tsUpdated_RFC822": "27 Jul 2017 03:10:00 +0000",
+      "valid_day": "Cetrtek CEST",
+      "valid": "2017-07-27T12:00:00.000Z",
+      "valid_UTC": "2017-07-27T10:00:00.000Z",
+      "nn_icon": "partCloudy",
+      "nn_shortText": "delno oblacno",
+      "nn_decodeText": "DO",
+      "wwsyn_icon": "RA",
+      "wwsyn_shortText": "dež",
+      "wwsyn_longText": "dežuje",
+      "wwsyn_decodeText": "RA",
+      "rr_icon": "light",
+      "rr_decodeText": "light",
+      "ts_icon": "",
+      "tsDeg_icon": "",
+      "ts_icon_tsDegree_gt0": "",
+      "ts_decodeText": "",
+      "ts_shortText": "",
+      "fog_icon": "",
+      "fogDeg_icon": "",
+      "fog_decodeText": "",
+      "fog_shortText": "",
+      "tn_var_desc": "Minimalna terminska temperatura",
+      "tn_var_unit": "°C",
+      "tn": 14,
+      "tn_degreesC": 14,
+      "tx_var_desc": "Maksimalna terminska temperatura",
+      "tx_var_unit": "°C",
+      "tx": 26,
+      "tx_degreesC": 26,
+      "tw_var_desc": "Temperatura vode",
+      "tw_var_unit": "°C",
+      "tw": null,
+      "tw_degreesC": null,
+      "windchill": "",
+      "vis_var_desc": "Vidnost",
+      "vis_unit": "km",
+      "vis_decodeText": "",
+      "dd_var_desc": "Smer vetra",
+      "dd_var_unit": "°",
+      "dd_icon": "",
+      "dd_shortText": "",
+      "dd_longText": "",
+      "dd_decodeText": "",
+      "ddff_icon": "",
+      "ff_var_desc": "Hitrost vetra",
+      "ff_var_unit": "m/s",
+      "ff_val": null,
+      "ff_val_kmh": null,
+      "ff_value": 0,
+      "ff_value_kmh": 0,
+      "ff_minimum": 0,
+      "ff_minimum_kmh": 0,
+      "ff_maximum": 0,
+      "ff_maximum_kmh": 0,
+      "ff_decodeText": "0                    ",
+      "ff_decodeText_kmh": "0                    ",
+      "ff_icon": "",
+      "ffmax_var_desc": "Sunki vetra",
+      "ffmax_var_unit": "m/s",
+      "ffmax_val": null,
+      "ffmax_val_kmh": null,
+      "waterWave_icon": "",
+      "waterWave_shortText": "",
+      "waterWave_decodeText": "",
+      "note": ""
     },
     ...
   ]

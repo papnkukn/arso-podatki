@@ -1,0 +1,167 @@
+{
+  "verzija": "1.0",
+  "vir": "Agencija RS za okolje",
+  "url": "http://www.arso.gov.si/xml/zrak/ones_zrak_dnevni_podatki_zadnji.xml",
+  "datum_priprave": "2017-07-23T09:35:00.000Z",
+  "datum_zahtevka": "2017-07-23T09:57:58.121Z",
+  "podatki": [
+    {
+      "id": "E21",
+      "lat": 14.512704,
+      "lng": 46.065497,
+      "nadm_visina": 299,
+      "merilno_mesto": "Ljubljana Bežigrad",
+      "pm10_dnevna": 26,
+      "so2_dnevna": 4,
+      "so2_max_urna": 5,
+      "co_max_8urna": null,
+      "o3_max_urna": 135,
+      "o3_max_8urna": 125,
+      "no2_max_urna": 42
+    },
+    {
+      "id": "E22",
+      "lat": 15.651241,
+      "lng": 46.558837,
+      "nadm_visina": 270,
+      "merilno_mesto": "Maribor center",
+      "pm10_dnevna": 27,
+      "co_max_8urna": null,
+      "no2_max_urna": null
+    },
+    {
+      "id": "E13",
+      "lat": 15.627231,
+      "lng": 46.568722,
+      "nadm_visina": 280,
+      "merilno_mesto": "MB Vrbanski plato",
+      "o3_max_urna": 147,
+      "o3_max_8urna": 132
+    },
+    {
+      "id": "E23",
+      "lat": 15.262438,
+      "lng": 46.234476,
+      "nadm_visina": 240,
+      "merilno_mesto": "Celje",
+      "pm10_dnevna": 25,
+      "so2_dnevna": 11,
+      "so2_max_urna": 14,
+      "o3_max_urna": 142,
+      "o3_max_8urna": 131,
+      "no2_max_urna": 40
+    },
+    {
+      "id": "E24",
+      "lat": 16.1961,
+      "lng": 46.6525,
+      "nadm_visina": 186.7,
+      "merilno_mesto": "Murska Sobota",
+      "pm10_dnevna": 20,
+      "o3_max_urna": 157,
+      "o3_max_8urna": 144,
+      "no2_max_urna": 25
+    },
+    {
+      "id": "E25",
+      "lat": 13.652398,
+      "lng": 45.955514,
+      "nadm_visina": 113,
+      "merilno_mesto": "Nova Gorica",
+      "pm10_dnevna": 30,
+      "o3_max_urna": 128,
+      "o3_max_8urna": 120,
+      "no2_max_urna": null
+    },
+    {
+      "id": "E31",
+      "lat": 13.911566,
+      "lng": 45.937618,
+      "nadm_visina": 965,
+      "merilno_mesto": "Otlica",
+      "o3_max_urna": 134,
+      "o3_max_8urna": 126
+    },
+    {
+      "id": "E30",
+      "lat": 13.713539,
+      "lng": 45.542967,
+      "nadm_visina": 56,
+      "merilno_mesto": "Koper",
+      "pm10_dnevna": 27,
+      "o3_max_urna": 151,
+      "o3_max_8urna": 145,
+      "no2_max_urna": 64
+    },
+    {
+      "id": "E26",
+      "lat": 15.035197,
+      "lng": 46.138744,
+      "nadm_visina": 260,
+      "merilno_mesto": "Trbovlje",
+      "pm10_dnevna": 19,
+      "so2_dnevna": 9,
+      "so2_max_urna": 10,
+      "co_max_8urna": 0.4,
+      "o3_max_urna": 133,
+      "o3_max_8urna": 126,
+      "no2_max_urna": 24
+    },
+    {
+      "id": "E27",
+      "lat": 14.996085,
+      "lng": 46.131074,
+      "nadm_visina": 241,
+      "merilno_mesto": "Zagorje",
+      "pm10_dnevna": 22,
+      "so2_dnevna": 5,
+      "so2_max_urna": 6,
+      "o3_max_urna": 129,
+      "o3_max_8urna": 120,
+      "no2_max_urna": 32
+    },
+    {
+      "id": "E28",
+      "lat": 15.083262,
+      "lng": 46.143874,
+      "nadm_visina": 290,
+      "merilno_mesto": "Hrastnik",
+      "so2_dnevna": 6,
+      "so2_max_urna": 6,
+      "o3_max_urna": 129,
+      "o3_max_8urna": 124
+    },
+    {
+      "id": "M16",
+      "lat": 14.86279,
+      "lng": 45.561461,
+      "nadm_visina": 532,
+      "merilno_mesto": "Iskrba",
+      "o3_max_urna": 141,
+      "o3_max_8urna": 138,
+      "no2_max_urna": 2
+    },
+    {
+      "id": "M22",
+      "lat": 14.538062,
+      "lng": 46.29768,
+      "nadm_visina": 1742,
+      "merilno_mesto": "Krvavec",
+      "co_max_8urna": 0.2,
+      "o3_max_urna": 153,
+      "o3_max_8urna": 148
+    },
+    {
+      "id": "E11",
+      "nadm_visina": 170,
+      "merilno_mesto": "NM Zalog-mobilna postaja",
+      "pm10_dnevna": 66,
+      "so2_dnevna": null,
+      "so2_max_urna": null,
+      "co_max_8urna": null,
+      "o3_max_urna": null,
+      "o3_max_8urna": null,
+      "no2_max_urna": 17
+    }
+  ]
+}

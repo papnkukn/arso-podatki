@@ -1,7 +1,7 @@
 {
   "name": "arso-podatki",
-  "version": "1.0.0",
-  "description": "ARSO podatki o vodi in zraku",
+  "version": "1.2.0",
+  "description": "Neuradna Node.js knjižnica za pridobivanje javnih merilnih podatkov iz Agencije RS za okolje.",
   "author": "Papn Kukn",
   "license": "MIT",
   "main": "index.js",

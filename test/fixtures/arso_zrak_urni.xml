@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arsopodatki verzija="1.1">
+<vir>Agencija RS za okolje</vir>
+<predlagan_zajem>48 minut &#269;ez polno uro</predlagan_zajem>
+<predlagan_zajem_perioda>60 min</predlagan_zajem_perioda>
+<datum_priprave>2017-07-23 11:35</datum_priprave>
+<postaja sifra="E21" ge_dolzina="14.512704" ge_sirina="46.065497" nadm_visina="299"><merilno_mesto>Ljubljana Bežigrad</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><so2>5</so2><co></co><o3>123</o3><no2>8</no2><pm10>35</pm10></postaja>
+<postaja sifra="E22" ge_dolzina="15.651241" ge_sirina="46.558837" nadm_visina="270"><merilno_mesto>Maribor center</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><co></co><no2>8</no2><pm10>26</pm10></postaja>
+<postaja sifra="E13" ge_dolzina="15.627231" ge_sirina="46.568722" nadm_visina="280"><merilno_mesto>MB Vrbanski plato</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><o3>110</o3></postaja>
+<postaja sifra="E23" ge_dolzina="15.262438" ge_sirina="46.234476" nadm_visina="240"><merilno_mesto>Celje</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><so2>11</so2><o3>113</o3><no2>5</no2><pm10>32</pm10></postaja>
+<postaja sifra="E24" ge_dolzina="16.1961" ge_sirina="46.6525" nadm_visina="186.7"><merilno_mesto>Murska Sobota</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><o3>114</o3><no2>16</no2><pm10>12</pm10></postaja>
+<postaja sifra="E25" ge_dolzina="13.652398" ge_sirina="45.955514" nadm_visina="113"><merilno_mesto>Nova Gorica</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><o3>100</o3><no2>8</no2><pm10>27</pm10></postaja>
+<postaja sifra="E31" ge_dolzina="13.911566" ge_sirina="45.937618" nadm_visina="965"><merilno_mesto>Otlica</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><o3>130</o3></postaja>
+<postaja sifra="E30" ge_dolzina="13.713539" ge_sirina="45.542967" nadm_visina="56"><merilno_mesto>Koper</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><o3>111</o3><no2>13</no2><pm10>61</pm10></postaja>
+<postaja sifra="E26" ge_dolzina="15.035197" ge_sirina="46.138744" nadm_visina="260"><merilno_mesto>Trbovlje</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><so2>10</so2><co>0.3</co><o3>119</o3><no2>4</no2><pm10>27</pm10></postaja>
+<postaja sifra="E27" ge_dolzina="14.996085" ge_sirina="46.131074" nadm_visina="241"><merilno_mesto>Zagorje</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><so2>6</so2><o3>110</o3><no2>14</no2><pm10>32</pm10></postaja>
+<postaja sifra="E28" ge_dolzina="15.083262" ge_sirina="46.143874" nadm_visina="290"><merilno_mesto>Hrastnik</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><so2>7</so2><o3>120</o3></postaja>
+<postaja sifra="M16" ge_dolzina="14.86279" ge_sirina="45.561461" nadm_visina="532"><merilno_mesto>Iskrba</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><o3>108</o3><no2>&lt;1</no2></postaja>
+<postaja sifra="M22" ge_dolzina="14.538062" ge_sirina="46.29768" nadm_visina="1742"><merilno_mesto>Krvavec</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><co>0.2</co><o3>119</o3></postaja>
+<postaja sifra="E11" nadm_visina="170"><merilno_mesto>NM Zalog-mobilna postaja</merilno_mesto><datum_od>2017-07-23 10:00</datum_od><datum_do>2017-07-23 11:00</datum_do><so2></so2><co></co><o3></o3><no2>4</no2><no2>4</no2></postaja>
+</arsopodatki>
