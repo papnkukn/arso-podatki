@@ -46,6 +46,8 @@ meteo.getSloveniaLatest(function(error, json, xml) {
 
 Pridobivanje dnevnih podatkov
 ```javascript
+var Arso = require('arso-podatki').Arso;
+var arso = new Arso();
 arso.getVodaDnevni(function(error, data, xml) {
   if (error) return console.error(error);
   fs.writeFileSync("arso_voda_dnevni.xml", xml);
@@ -98,6 +100,8 @@ Rezultat
 
 Pridobivanje dnevnih podatkov
 ```javascript
+var Arso = require('arso-podatki').Arso;
+var arso = new Arso();
 arso.getZrakDnevni(function(error, data, xml) {
   if (error) return console.error(error);
   fs.writeFileSync("arso_zrak_dnevni.xml", xml);
@@ -178,8 +182,10 @@ Rezultat
 
 Pridobivanje podatkov
 ```javascript
+var Meteo = require('arso-podatki').Meteo;
+var meteo = new Meteo();
 var url = "http://www.meteo.si/uploads/probase/www/fproduct/text/sl/fcast_SLOVENIA_latest.xml";
-arso.getWeatherData(url, function(error, data, xml) {
+meteo.getWeatherData(url, function(error, data, xml) {
   if (error) return console.error(error);
   fs.writeFileSync("meteo_si_latest.xml", xml);
   fs.writeFileSync("meteo_si_latest.json", JSON.stringify(data, " ", 2));
